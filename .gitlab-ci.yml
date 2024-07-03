@@ -59,7 +59,7 @@ run_pre_commit:
 
 check_stub_source_correctness:
   stage: pre_check
-  image: espressif/idf:latest
+  image: espressif/idf:v5.2.2
   tags:
     - internet
   script:
